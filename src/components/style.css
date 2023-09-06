@@ -1,0 +1,196 @@
+.container-fluid {
+  background-color: rgb(230, 233, 255);
+  /* border: solid 1px rgb(9, 27, 107); */
+}
+
+.navbar-brand {
+  font-size: 140%;
+  font-weight: 600;
+}
+
+.nav-item {
+  margin-left: 7%;
+  font-size: 110%;
+}
+
+.listh {
+  font-size: 5vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* line-height: 90px; */
+  margin-top: 10%;
+}
+
+.line {
+  border-top: 4px solid rgb(0, 3, 65);
+  margin-bottom: 10%;
+}
+
+/* Container holding the image and the text */
+.bg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .bg {
+    margin-top: 40%;
+  }
+}
+
+.bgimg {
+  opacity: 0.8;
+  width: 100%;
+}
+
+
+
+button,
+button:hover,
+button:active,
+button:visited,
+button:focus {
+  outline: 0;
+}
+
+button {
+  height: 45px;
+  width: auto;
+  padding: 0 35px;
+  border-radius: 4px;
+  color: #6c6c6c;
+  border: 1px solid #c6c6c6;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  transition: 0.3s cubic-bezier(.25, .8, .95, 1);
+  transition: padding 0s;
+  background: transparent;
+
+
+}
+
+
+.inner {
+  transform: translateZ(121px);
+  width: 40%;
+  left:30%;
+  height: auto;
+  background: #fff;
+  box-shadow: 1px 2px 18px rgba(0, 0, 0, .68);
+  border-radius: 4px;
+  transform: translateY(60%);
+  position: relative;
+  padding:3%;
+  margin-top: 0px;
+}
+@media screen and (max-width: 500px) {
+  .inner {
+    width:auto;
+    height:auto;
+    left:0;
+  }
+}
+
+
+.input {
+  width: 70%;
+  height: 45px;
+  margin:auto;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 4px;
+  padding-left: 12px;
+}
+
+.input-control {
+  width: 100%;
+  margin: auto auto 20px auto;
+}
+
+.greetings {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: 'Lato';
+}
+
+.success{
+  width:100%;
+  height: 100%;
+  background-color: black;
+}
+
+
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.loginn {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.logincontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+

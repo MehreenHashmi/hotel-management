@@ -1,0 +1,82 @@
+.faqcontainer{
+    box-shadow: 0 30px 30px rgba(31, 45, 61, 0.125);
+    border: 1px solid rgb(184, 185, 245);
+    padding:50px 0px;
+}
+.section_padding {
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px 20px;
+}
+
+
+.wrapper .accordion-button {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.wrapper .accordion-button:hover {
+    background-color: rgb(210, 225, 255);
+}
+
+.wrapper .accordion-button:focus {
+    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+}
+
+.wrapper .accordion-button::after {
+    background-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0065a3;
+    background-position: center center;
+    border-radius: 50%;
+}
+
+.wrapper .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #eadfff;
+    font-weight: 600;
+    border-bottom: 1px solid #9aa0a8 !important
+}
+
+.wrapper .accordion-collapse {
+    background-color: #eaf3fa;
+}
+
+.wrapper .accordion-collapse ul li {
+    line-height: 2rem;
+    width: 100%;
+    padding: 0.5rem 1.3rem;
+}
+
+
+.wrapper .accordion-collapse ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+}
+
+
+@media (max-width: 777px) {
+    .wrapper {
+        margin: 50px 20px;
+    }
+}
+
+@media (max-width: 365px) {
+    .wrapper {
+        margin: 50px 10px;
+        }
+
+    .w-75 {
+        width: 90% !important
+    }
+}

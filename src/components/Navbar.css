@@ -1,0 +1,104 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    /* background: linear-gradient(45deg, rgb(204, 208, 233), rgb(102, 102, 219)); */
+    background-color: rgb(167, 175, 236);
+    margin-bottom:10% ;
+}
+
+.navbar-brand{
+    font-size: 140%;
+    font-weight: 600;
+    margin-left: 0%;
+  }
+  .nav-item{
+    margin-left: 0%;
+    font-size: 120%;
+  }
+
+.list {
+    list-style-type: none;
+    background-color: rgb(230, 233, 255);
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: left;
+    position: relative;
+}
+.items {
+    margin-left: 7%;
+    font-size: 110%;
+    text-transform: uppercase;
+    color: #03163b;
+    cursor: pointer;
+}
+.about{
+  margin-left: 90%;
+  font-size: 110%;
+  text-transform: uppercase;
+  color: #03163b;
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  .about {
+    margin-left: 70%;
+    margin-right: 60%;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  .about {
+    margin-left: 60%;
+    margin-right: 60%;
+  }
+
+}
+.hamburger {
+    /* // removes default border on button element */
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #03163b;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  /* // positions the icon to the right and center aligns it vertically */
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  .hamburger:hover {
+    background-color: #0a143f;
+  }
+  @media screen and (max-width: 545px) {
+    .hamburger {
+      display: block;
+    }
+  
+  }
+@media screen and (max-width: 500px){
+    .list {
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .items:nth-child(1){
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        margin-top: 50px;
+    }
+    .items {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;
+    }
+
+}
